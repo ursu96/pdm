@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Istrate.ConvertorPage"
+             Title="Convertor">
+ 
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Text="Converteste"
+                   VerticalOptions="Center"
+                   Grid.Row="0" 
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   />
+            <Entry Placeholder="Suma de convertit"
+                   x:Name="entryValDeConvertit"
+                   Keyboard="Numeric"
+                   Grid.Row="1"
+                   Grid.Column="0" 
+                   />
+            <Picker 
+                x:Name="pickerValutaSursa"
+                Grid.Row="1"
+                Grid.Column="1"/>
+            <Label Text="Rezultat"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"/>
+            <Entry Placeholder="Valoare convertita"
+                   Grid.Row="3"
+                   Grid.Column="0"/>
+            <Picker
+                x:Name="pickerValutaDestinatie"
+                Grid.Row="3"
+                Grid.Column="1"/>
+            <Button Text="Converteste"
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Clicked="ButtonConverteste_Clicked"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Istrate"
+             x:Class="Istrate.MainPage"
+             Title="Curs valutar">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Convertor" Order="Secondary" Clicked="ConvertorToolbarItem_Clicked"/>
+        <ToolbarItem Text="Despre" Order="Secondary" Clicked="DespreToolbarItem_Clicked"/>
+        <ToolbarItem Text="Favorite" Order="Secondary" Clicked="FavoriteToolbarItem_Clicked"/>
+        <ToolbarItem Text="Istoric" Order="Secondary" Clicked="IstoricToolbarItem_Clicked"/>
+
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Data cursului" 
+           HorizontalOptions="Center"/>
+        <ListView x:Name="listViewCurs">
+            
+        </ListView>
+       
+    </StackLayout>
+
+</ContentPage>
