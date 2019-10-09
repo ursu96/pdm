@@ -24,8 +24,8 @@ namespace Istrate
 
             Curs cursHUF = new Curs
             {
-                Valoare = 4.75,
-                Valuta = "EUR",
+                Valoare = 1.42,
+                Valuta = "HUF",
                 Data = "2019-10-09"
             };
 
@@ -40,12 +40,13 @@ namespace Istrate
             listaCursuri.Add(cursHUF);
             listaCursuri.Add(cursUSD);
 
+            dataCursului.BindingContext = listaCursuri[0];
             listViewCurs.ItemsSource = listaCursuri;
         }
 
         private void ConvertorToolbarItem_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new ConvertorPage());
+            Navigation.PushAsync(new ConvertorPage(listaCursuri));
         }
 
         private void DespreToolbarItem_Clicked(object sender, EventArgs e)

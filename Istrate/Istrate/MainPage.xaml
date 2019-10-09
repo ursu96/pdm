@@ -15,10 +15,22 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Data cursului" 
-           HorizontalOptions="Center" TextColor="HotPink"/>
+        <Label x:Name="dataCursului" Text="{Binding Data}" 
+           HorizontalOptions="Center" TextColor="HotPink" Margin="0, 0, 0, 30"
+               />
+        
         <ListView x:Name="listViewCurs">
-            
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation = "Horizontal" HorizontalOptions = "Center">
+                            <Image Source = "{Binding ResursaDrapel} "/>
+                            <Label Text = "{Binding Multiplicator}"/>
+                            <Label Text = "{Binding Valuta}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
         </ListView>
        
     </StackLayout>

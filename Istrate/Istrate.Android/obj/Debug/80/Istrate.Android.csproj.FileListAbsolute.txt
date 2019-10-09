@@ -103,6 +103,10 @@ T:\pdm\Istrate\Istrate.Android\obj\Debug\80\android\assets\System.Xml.pdb
 T:\pdm\Istrate\Istrate.Android\obj\Debug\80\android\assets\Xamarin.Forms.Core.pdb
 T:\pdm\Istrate\Istrate.Android\obj\Debug\80\android\assets\Xamarin.Forms.Platform.Android.pdb
 T:\pdm\Istrate\Istrate.Android\obj\Debug\80\android\assets\Xamarin.Forms.Xaml.pdb
+T:\pdm\Istrate\Istrate.Android\obj\Debug\80\res\drawable\eur.png
+T:\pdm\Istrate\Istrate.Android\obj\Debug\80\res\drawable\us.png
+T:\pdm\Istrate\Istrate.Android\obj\Debug\80\res\drawable\eu.png
+T:\pdm\Istrate\Istrate.Android\obj\Debug\80\res\drawable\hu.png
 T:\pdm\Istrate\Istrate\bin\Debug\netstandard2.0\Istrate.dll
 T:\pdm\Istrate\Istrate.Android\bin\Debug\Istrate.dll.mdb
 T:\pdm\Istrate\Istrate.Android\obj\Debug\80\linksrc\Istrate.dll.mdb

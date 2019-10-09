@@ -23,6 +23,9 @@ namespace Istrate {
         private global::Xamarin.Forms.Picker pickerValutaSursa;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry valoareConvertitaNoua;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Picker pickerValutaDestinatie;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -30,6 +33,7 @@ namespace Istrate {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ConvertorPage));
             entryValDeConvertit = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "entryValDeConvertit");
             pickerValutaSursa = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "pickerValutaSursa");
+            valoareConvertitaNoua = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "valoareConvertitaNoua");
             pickerValutaDestinatie = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "pickerValutaDestinatie");
         }
     }

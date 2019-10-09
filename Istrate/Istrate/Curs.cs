@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Istrate
 {
-    class Curs
+    public class Curs
     {
 
         public Curs()
@@ -21,5 +21,17 @@ namespace Istrate
 
         public string Data { get; set; }
 
+        public string ResursaDrapel
+        {
+            get
+            {
+                return Valuta.ToLower().Substring(0, 2) + ".png";
+            }
+        }
+
+        public override string ToString()
+        {
+            return Valuta;
+        }
     }
 }

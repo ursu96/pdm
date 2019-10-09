@@ -37,7 +37,7 @@
                    Grid.Row="2"
                    Grid.Column="0"
                    Grid.ColumnSpan="2"/>
-            <Entry Placeholder="Valoare convertita"
+            <Entry x:Name="valoareConvertitaNoua" Placeholder="Valoare convertita"
                    Grid.Row="3"
                    Grid.Column="0"/>
             <Picker
