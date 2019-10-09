@@ -9,9 +9,38 @@ namespace Istrate
 {
     public partial class MainPage : ContentPage
     {
+        List<Curs> listaCursuri = new List<Curs>();
+
         public MainPage()
         {
             InitializeComponent();
+
+            Curs cursEUR = new Curs
+            {
+                Valoare = 4.75,
+                Valuta = "EUR",
+                Data = "2019-10-09"
+            };
+
+            Curs cursHUF = new Curs
+            {
+                Valoare = 4.75,
+                Valuta = "EUR",
+                Data = "2019-10-09"
+            };
+
+            Curs cursUSD = new Curs
+            {
+                Valoare = 4.32,
+                Valuta = "USD",
+                Data = "2019-10-09"
+            };
+
+            listaCursuri.Add(cursEUR);
+            listaCursuri.Add(cursHUF);
+            listaCursuri.Add(cursUSD);
+
+            listViewCurs.ItemsSource = listaCursuri;
         }
 
         private void ConvertorToolbarItem_Clicked(object sender, EventArgs e)

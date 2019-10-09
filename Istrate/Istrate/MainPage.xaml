@@ -16,7 +16,7 @@
     <StackLayout>
         <!-- Place new controls here -->
         <Label Text="Data cursului" 
-           HorizontalOptions="Center"/>
+           HorizontalOptions="Center" TextColor="HotPink"/>
         <ListView x:Name="listViewCurs">
             
         </ListView>

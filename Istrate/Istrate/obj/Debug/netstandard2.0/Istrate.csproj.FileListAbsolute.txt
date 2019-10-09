@@ -1,0 +1,16 @@
+T:\pdm\Istrate\Istrate\obj\Debug\netstandard2.0\Istrate.csprojAssemblyReference.cache
+T:\pdm\Istrate\Istrate\bin\Debug\netstandard2.0\Istrate.deps.json
+T:\pdm\Istrate\Istrate\bin\Debug\netstandard2.0\Istrate.dll
+T:\pdm\Istrate\Istrate\bin\Debug\netstandard2.0\Istrate.pdb
+T:\pdm\Istrate\Istrate\obj\Debug\netstandard2.0\App.xaml.g.cs
+T:\pdm\Istrate\Istrate\obj\Debug\netstandard2.0\ConvertorPage.xaml.g.cs
+T:\pdm\Istrate\Istrate\obj\Debug\netstandard2.0\DesprePage.xaml.g.cs
+T:\pdm\Istrate\Istrate\obj\Debug\netstandard2.0\FavoritePage.xaml.g.cs
+T:\pdm\Istrate\Istrate\obj\Debug\netstandard2.0\IstoricPage.xaml.g.cs
+T:\pdm\Istrate\Istrate\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+T:\pdm\Istrate\Istrate\obj\Debug\netstandard2.0\Istrate.csproj.CoreCompileInputs.cache
+T:\pdm\Istrate\Istrate\obj\Debug\netstandard2.0\Istrate.AssemblyInfoInputs.cache
+T:\pdm\Istrate\Istrate\obj\Debug\netstandard2.0\Istrate.AssemblyInfo.cs
+T:\pdm\Istrate\Istrate\obj\Debug\netstandard2.0\XamlC.stamp
+T:\pdm\Istrate\Istrate\obj\Debug\netstandard2.0\Istrate.dll
+T:\pdm\Istrate\Istrate\obj\Debug\netstandard2.0\Istrate.pdb
